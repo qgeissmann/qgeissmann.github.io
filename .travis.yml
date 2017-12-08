@@ -4,9 +4,7 @@ latex: true
 pandoc_version: 1.19.2.1
 
 r_packages:
-   data.table
-   RefManageR
-   DT
+   data.table,RefManageR,DT
 
 before_script:
   - chmod +x ./_build.sh
