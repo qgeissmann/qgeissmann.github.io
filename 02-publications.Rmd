@@ -1,3 +1,63 @@
-# Publications
+# Publications {-}
 
-Here is a review of existing methods.
+
+```{r, echo=FALSE}
+library(RefManageR)
+library(DT)
+library(data.table)
+
+# TODO link pdf
+# todo bolden name
+# todo equal contrib annotation
+# TODO Capitalise colnames
+# get citations
+# set defaut order 
+
+refs <- RefManageR::ReadZotero(group = "14341", .params = list())
+dt <- as.data.table(refs)[,.(Year = year, 
+                             Title = title, 
+                             doi, 
+                             Journal = journal,
+                             Authors = author)]
+dt[, Title := gsub("\\{|\\}", "", Title)]
+dt[, Authors := gsub(" and ", ", ", Authors)]
+author_js <- JS(
+  "function(data, type, row, meta) {",
+  'lst = data.split(",");',
+  "if(lst.length >3){",
+     'display = [lst[0],lst[1],"…,",lst.slice(-1)[0]].join(", ");',
+  "}",
+  "else{",
+      "display=data;",
+  "}",
+  
+  'display = display.split(",");',
+  'data = data.split(",");',
+  "if(display.length > 1){",
+     'display = display.slice(0,-1).join(", ") + " and" + display.slice(-1);',
+     'data = data.slice(0,-1).join(", ") + " and" + data.slice(-1);',
+  "}",
+  "else{",
+     "display=data;",
+  "}",
+  "return '<span title=\"' + data + '\">' + display + '</span>';",
+  "}"
+)
+
+
+ dt[, Title := sprintf('<a href="http://dx.doi.org/%s">%s</a>',doi, Title)]
+ dt[, doi:=NULL ]
+ 
+ options = list(columnDefs = list(list(
+                      targets = which(colnames(dt) == "Authors") - 1,
+                      render = author_js
+                    )))
+ 
+ out <- datatable(dt, 
+                  options = options,
+                  rownames = FALSE,
+                  escape = FALSE
+                  )
+ out
+```
+
