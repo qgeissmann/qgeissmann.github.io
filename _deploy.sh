@@ -12,6 +12,7 @@ echo "cloning master"
 git clone -b master https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git book-output
 cd book-output
 cp -r ../_book/* ./
+cp -r ../qgeissmann-cv.pdf ./
 git add --all *
 git commit -m"Automatic deployment after $TRAVIS_COMMIT [ci skip]" || true
 git push -q origin master
