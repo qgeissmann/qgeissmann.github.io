@@ -6,21 +6,6 @@ library(RefManageR)
 library(DT)
 library(data.table)
 
-# TODO link pdf
-# todo bolden name
-# todo equal contrib annotation
-# TODO Capitalise colnames
-# get citations
-# set defaut order 
-
-refs <- RefManageR::ReadZotero(group = "14341", .params = list())
-dt <- as.data.table(refs)[,.(Year = year, 
-                             Title = title, 
-                             doi, 
-                             Journal = journal,
-                             Authors = author)]
-dt[, Title := gsub("\\{|\\}", "", Title)]
-dt[, Authors := gsub(" and ", ", ", Authors)]
 author_js <- JS(
   "function(data, type, row, meta) {",
   'lst = data.split(",");',
@@ -43,11 +28,29 @@ author_js <- JS(
   "return '<span title=\"' + data + '\">' + display + '</span>';",
   "}"
 )
+```
 
+
+```{r, echo=FALSE}
+# TODO link pdf
+# todo bolden name
+# todo equal contrib annotation
+# TODO Capitalise colnames
+# get citations
+# set defaut order 
+
+refs <- RefManageR::ReadZotero(group = "14341", .params = list())
+dt <- as.data.table(refs)[,.(Year = year, 
+                             Title = title, 
+                             doi, 
+                             Journal = journal,
+                             Authors = author)]
+dt[, Title := gsub("\\{|\\}", "", Title)]
+dt[, Authors := gsub(" and ", ", ", Authors)]
 
  dt[, Title := sprintf('<a href="http://dx.doi.org/%s">%s</a>',doi, Title)]
+  # refs_gs <- RefManageR::ReadGS("sgSsPvUAAAAJ")
  dt[, doi:=NULL ]
- 
  options = list(columnDefs = list(list(
                       targets = which(colnames(dt) == "Authors") - 1,
                       render = author_js
@@ -59,5 +62,6 @@ author_js <- JS(
                   escape = FALSE
                   )
  out
+ 
 ```
 

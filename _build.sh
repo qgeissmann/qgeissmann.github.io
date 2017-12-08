@@ -1,5 +1,6 @@
 #!/bin/sh
 
-xelatex qgeissmann-cv.tex
+
 Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+#xelatex qgeissmann-cv.tex
 
