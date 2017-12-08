@@ -2,11 +2,14 @@
 title: "Quentin Geissmann"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: 
+  bookdown::gitbook:
+    includes:
+       in_header: ga-script.html
 documentclass: book
 link-citations: yes
 github-repo: qgeissmann/qgeissmann.github.io
-description: "My professional webpage built in bookdown."
+description: "My professional webpage"
 ---
 
 # About {-}
