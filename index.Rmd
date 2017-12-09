@@ -1,30 +1,34 @@
 --- 
-title: "Quentin Geissmann"
-date: "`r Sys.Date()`"
+title: "Quentin Geissmann, `r Sys.Date()`"
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:
     includes:
-       in_header: ga-script.html
+       in_header: my-header.html
 documentclass: book
 link-citations: yes
 github-repo: qgeissmann/qgeissmann.github.io
 description: "My professional webpage"
 ---
 
+
 # About {-}
 
-Hey there, I am Quentin, a final year PhD student in in the [Gilestro lab](https://lab.gilest.ro/) (in Imperial College London).
 
-My long standing scientific interests are both in *comparative physiology* and *computational biology*.
-Indeed, I have always been interested in the diversity of lifeforms, and how different organisms have evolved solutions to a wide range of biotic and abiotic problems.
+<div class="figure">
+<img src="assets/imperial_festival.jpg" alt="Presenting the ethoscope at an outreach event, 2017" style="float:right; margin:10px 0px 0px 10px;" width=35%>
+<!-- <p class="caption">Presenting the ethoscope at an outreach event, 2017</p> -->
+</div>
 
-During my undergrads, I also developed a strong passion for programming and open-source software development which naturally led me to study computational biology, statistics and machine learning.
+Hey there, I am Quentin, a final year PhD student in in the [Gilestro lab](https://lab.gilest.ro/) (in Imperial College London). My scientific interests are both in *comparative physiology* and *computational biology*.
 
-![Presenting the ethoscope at an outreach event, 2017](./assets/imperial_festival.jpg)
+Indeed, I have always been interested in the diversity of life forms, and how different organisms have evolved solutions to a wide range constraints.
+
+Over the years, I also developed a passion for open-source software which naturally led me to study computational biology, statistics and machine learning.
+
 
 I am currently part of a multidisciplinary team where I work right at the intersection between my two interests.
-My collaborators and myself try to understand the *physiology of sleep* using *Drosophila* as a model.
+My collaborators and myself try to understand the *physiology of sleep*, using *Drosophila* as a model.
 So far, my main contributions have been to:
 
 * Build the [Ethoscope Platform](https://gilestrolab.github.io/ethoscope/), a real time tracking system that can monitor hundreds of animals at a time

@@ -9,3 +9,16 @@ bookdown::gitbook:
     #edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
     download: ["pdf"]
     collapse: section
+    search: yes
+    fontsettings:
+      theme: night
+      family: sans
+      size: 2
+    sharing:
+      facebook: no
+      twitter: yes
+      google: no
+      weibo: no
+      instapper: no
+      vk: no
+      all: ['facebook', 'google', 'twitter', 'weibo', 'instapaper']
