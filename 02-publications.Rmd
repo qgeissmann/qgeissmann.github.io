@@ -33,11 +33,8 @@ author_js <- JS(
 
 ```{r, echo=FALSE}
 # TODO link pdf
-# todo bolden name
 # todo equal contrib annotation
-# TODO Capitalise colnames
 # get citations
-# set defaut order 
 
 refs <- RefManageR::ReadZotero(group = "14341", .params = list())
 dt <- as.data.table(refs)[,.(Year = year, 
@@ -47,21 +44,24 @@ dt <- as.data.table(refs)[,.(Year = year,
                              Authors = author)]
 dt[, Title := gsub("\\{|\\}", "", Title)]
 dt[, Authors := gsub(" and ", ", ", Authors)]
-
- dt[, Title := sprintf('<a href="http://dx.doi.org/%s">%s</a>',doi, Title)]
-  # refs_gs <- RefManageR::ReadGS("sgSsPvUAAAAJ")
- dt[, doi:=NULL ]
- options = list(columnDefs = list(list(
+dt[, Authors := gsub("Q. Geissmann", "<b>Q. Geissmann</b>", Authors)]
+dt[, Title := sprintf('<a href="http://dx.doi.org/%s">%s</a>',doi, Title)]
+# refs_gs <- RefManageR::ReadGS("sgSsPvUAAAAJ")
+dt[, doi:=NULL ]
+setkeyv(dt, "Year")
+dt <- dt[.N:1]
+options = list(columnDefs = list(list(
                       targets = which(colnames(dt) == "Authors") - 1,
                       render = author_js
                     )))
  
- out <- datatable(dt, 
+out <- datatable(dt, 
                   options = options,
                   rownames = FALSE,
-                  escape = FALSE
+                  escape = FALSE,
+                 #filter = "bottom"
+                 
                   )
- out
- 
+out
 ```
 

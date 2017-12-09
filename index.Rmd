@@ -14,9 +14,19 @@ description: "My professional webpage"
 
 # About {-}
 
+Hey there, I am Quentin, a final year PhD student in in the [Gilestro lab](https://lab.gilest.ro/) (in Imperial College London).
 
-Something about me...
+My long standing scientific interests are both in *comparative physiology* and *computational biology*.
+Indeed, I have always been interested in the diversity of lifeforms, and how different organisms have evolved solutions to a wide range of biotic and abiotic problems.
 
-another thing about me...
+During my undergrads, I also developed a strong passion for programming and open-source software development which naturally led me to study computational biology, statistics and machine learning.
 
+![Presenting the ethoscope at an outreach event, 2017](./assets/imperial_festival.jpg)
 
+I am currently part of a multidisciplinary team where I work right at the intersection between my two interests.
+My collaborators and myself try to understand the *physiology of sleep* using *Drosophila* as a model.
+So far, my main contributions have been to:
+
+* Build the [Ethoscope Platform](https://gilestrolab.github.io/ethoscope/), a real time tracking system that can monitor hundreds of animals at a time
+* Develop [Rethomics](http://rethomics.github.io/), a pipeline to analyse high-throughput behaviour data
+* Use these approaches to challenge our understanding of sleep (*e.g.* physiology of sleep deprivation, trade-offs between sleeping and mating)
