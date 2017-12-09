@@ -31,6 +31,6 @@ I am currently part of a multidisciplinary team where I work right at the inters
 My collaborators and myself try to understand the *physiology of sleep*, using *Drosophila* as a model.
 So far, my main contributions have been to:
 
-* Build the [Ethoscope Platform](https://gilestrolab.github.io/ethoscope/), a real time tracking system that can monitor hundreds of animals at a time
+* Build the [Ethoscope Platform](https://gilestrolab.github.io/ethoscope/), a real-time tracking system that monitors hundreds of animals at a time
 * Develop [Rethomics](http://rethomics.github.io/), a pipeline to analyse high-throughput behaviour data
 * Use these approaches to challenge our understanding of sleep (*e.g.* physiology of sleep deprivation, trade-offs between sleeping and mating)
