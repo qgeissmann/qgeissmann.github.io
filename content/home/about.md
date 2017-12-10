@@ -33,7 +33,7 @@ weight = 5
   year = 2010
 
 [[education.courses]]
-  course = "BSc. Biology of Organisms,"
+  course = "BSc. Biology of Organisms"
   institution = "Université de Bourgogne"
   year = 2008
  

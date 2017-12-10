@@ -29,12 +29,22 @@ filter_default = 0
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Software"
+  tag = ".software"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Behaviour"
+  tag = ".behaviour"
+
+
+[[filter]]
+  name = "Hardware"
+  tag = ".hardware"
+
+
+[[filter]]
+  name = "Prototype"
+  tag = ".prototype"
 
 +++
 

@@ -48,7 +48,7 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "qgeissmann@gnail.com"
+  email = "qgeissmann@gmail.com"
   address = "Imperial college, SW7 2AZ, London, United Kingdom"
   #telegram = ""
 
