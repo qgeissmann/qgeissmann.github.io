@@ -36,13 +36,41 @@
 ---
 
 
-```{r DT, echo=FALSE}
+```{r DT, echo=FALSE, warning=FALSE, message=FALSE}
 library(RefManageR)
 library(data.table)
+library(knitr)
+library(kableExtra)
 
 # TODO link pdf
 # todo equal contrib annotation
 # get citations
+
+format_authors <- function(authors){
+  bold_name <- "**Q. Geissmann**"
+  authors <- strsplit(authors, split = " and ")
+  full_list <- sapply(authors, function(x){
+      if(length(x) ==1) 
+        return(x)
+        sprintf("%s and %s", paste(x[1:length(x)-1], collapse = ", ",sep = ""), x[length(x)])
+        })
+  
+  
+  short_list <- sapply(authors, function(x){
+      if(length(x) ==1) 
+        return(x)
+      if(length(x) < 4)
+        return(sprintf("%s and %s", paste(x[1:length(x)-1], collapse = ", ",sep = ""), x[length(x)]))
+      
+      sprintf("%s, ..., and %s", paste(x[1:2], collapse = ", ",sep = ""), x[length(x)])
+    
+        })
+  
+  
+  short_list <- gsub(pattern="Q. Geissmann", replacement=bold_name, short_list)
+  kableExtra::text_spec(short_list, tooltip = full_list)  
+}
+
 
 refs <- RefManageR::ReadZotero(group = "14341", .params = list())
 dt <- as.data.table(refs)[,.(Year = year, 
@@ -50,62 +78,18 @@ dt <- as.data.table(refs)[,.(Year = year,
                              doi, 
                              Journal = journal,
                              Authors = author)]
+
+
+
 dt[, Title := gsub("\\{|\\}", "", Title)]
-dt[, Authors := gsub(" and ", ", ", Authors)]
-dt[, Authors := gsub("Q. Geissmann", "**Q. Geissmann**", Authors)]
 dt[, Title := sprintf('[%s](http://dx.doi.org/%s)',Title, doi)]
-# dt[, Authors := gsub("Q. Geissmann", "<b>Q. Geissmann</b>", Authors)]
-# dt[, Title := sprintf('<a href="http://dx.doi.org/%s">%s</a>',doi, Title)]
-# refs_gs <- RefManageR::ReadGS("sgSsPvUAAAAJ")
+dt[, Authors := format_authors(Authors)]
 dt[, doi:=NULL ]
 setkeyv(dt, "Year")
 dt <- dt[.N:1]
 
-```
 
-
-```{r}
-library(knitr)
-library(kableExtra)
-
-knitr::kable(dt, "html") %>%
+knitr::kable(dt, "html", escape=FALSE) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
-```
 
-```{r, echo=FALSE, eval=FALSE}
-library(DT)
-author_js <- JS(
-  "function(data, type, row, meta) {",
-  'lst = data.split(",");',
-  "if(lst.length >3){",
-     'display = [lst[0],lst[1],"…,",lst.slice(-1)[0]].join(", ");',
-  "}",
-  "else{",
-      "display=data;",
-  "}",
-  
-  'display = display.split(",");',
-  'data = data.split(",");',
-  "if(display.length > 1){",
-     'display = display.slice(0,-1).join(", ") + " and" + display.slice(-1);',
-     'data = data.slice(0,-1).join(", ") + " and" + data.slice(-1);',
-  "}",
-  "else{",
-     "display=data;",
-  "}",
-  "return '<span title=\"' + data + '\">' + display + '</span>';",
-  "}"
-)
-
-options = list(columnDefs = list(list(
-                      targets = which(colnames(dt) == "Authors") - 1,
-                      render = author_js
-                    )))
-out <- datatable(dt, 
-                  options = options,
-                  rownames = FALSE,
-                  escape = FALSE,
-                 #filter = "bottom"
-                 
-                  )
 ```

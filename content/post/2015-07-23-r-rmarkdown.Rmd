@@ -67,10 +67,6 @@ out <- datatable(dt,
                  #filter = "bottom"
                  
                   )
-library(htmlwidgets)
-library(htmltools)
-
-htmlwidgets::saveWidget(out, file = "_publication-table.html", selfcontained = TRUE)
 out
 ```
 
