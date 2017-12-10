@@ -1,0 +1,77 @@
+---
+title: "Hello R Markdown"
+author: "Frida Gomam"
+date: 2015-07-23T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r, echo=FALSE}
+library(RefManageR)
+library(DT)
+library(data.table)
+
+author_js <- JS(
+  "function(data, type, row, meta) {",
+  'lst = data.split(",");',
+  "if(lst.length >3){",
+     'display = [lst[0],lst[1],"…,",lst.slice(-1)[0]].join(", ");',
+  "}",
+  "else{",
+      "display=data;",
+  "}",
+  
+  'display = display.split(",");',
+  'data = data.split(",");',
+  "if(display.length > 1){",
+     'display = display.slice(0,-1).join(", ") + " and" + display.slice(-1);',
+     'data = data.slice(0,-1).join(", ") + " and" + data.slice(-1);',
+  "}",
+  "else{",
+     "display=data;",
+  "}",
+  "return '<span title=\"' + data + '\">' + display + '</span>';",
+  "}"
+)
+```
+
+
+```{r DT, echo=FALSE}
+# TODO link pdf
+# todo equal contrib annotation
+# get citations
+
+refs <- RefManageR::ReadZotero(group = "14341", .params = list())
+dt <- as.data.table(refs)[,.(Year = year, 
+                             Title = title, 
+                             doi, 
+                             Journal = journal,
+                             Authors = author)]
+dt[, Title := gsub("\\{|\\}", "", Title)]
+dt[, Authors := gsub(" and ", ", ", Authors)]
+dt[, Authors := gsub("Q. Geissmann", "<b>Q. Geissmann</b>", Authors)]
+dt[, Title := sprintf('<a href="http://dx.doi.org/%s">%s</a>',doi, Title)]
+# refs_gs <- RefManageR::ReadGS("sgSsPvUAAAAJ")
+dt[, doi:=NULL ]
+setkeyv(dt, "Year")
+dt <- dt[.N:1]
+options = list(columnDefs = list(list(
+                      targets = which(colnames(dt) == "Authors") - 1,
+                      render = author_js
+                    )))
+ 
+out <- datatable(dt, 
+                  options = options,
+                  rownames = FALSE,
+                  escape = FALSE,
+                 #filter = "bottom"
+                 
+                  )
+library(htmlwidgets)
+library(htmltools)
+
+htmlwidgets::saveWidget(out, file = "_publication-table.html", selfcontained = TRUE)
+out
+```
+
+<iframe seamless src="../_publication-table/index.html" width="100%" height="500"></iframe>

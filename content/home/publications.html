@@ -1,0 +1,134 @@
+---
+  # This widget displays recent publications from `content/publication/`.
+  widget: "publications"
+  active: true
+  date: 2016-04-20
+  
+  title: "Publications"
+  subtitle: ""
+  
+  # Order that this section will appear in.
+  weight: 20
+  
+  # Number of publications to list.
+  count: 10
+  
+  # List format.
+  #   0 = Simple
+  #   1 = Detailed
+  #   2 = APA
+  #   3 = MLA
+  list_format: 3
+  
+  # Filter by publication type.
+  # -1: Any
+  #  0: Uncategorized
+  #  1: Conference proceedings
+  #  2: Journal
+  #  3: Work in progress
+  #  4: Technical report
+  #  5: Book
+  #  6: Book chapter
+  publication_type: "-1"
+  
+  # Exclude publications that are shown in the Selected Publications widget?
+  exclude_selected: false
+---
+
+
+
+<pre class="r"><code>library(knitr)
+library(kableExtra)
+
+knitr::kable(dt, &quot;html&quot;) %&gt;%
+  kable_styling(bootstrap_options = c(&quot;striped&quot;, &quot;hover&quot;, &quot;condensed&quot;, &quot;responsive&quot;))</code></pre>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Year
+</th>
+<th style="text-align:left;">
+Title
+</th>
+<th style="text-align:left;">
+Journal
+</th>
+<th style="text-align:left;">
+Authors
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+2017
+</td>
+<td style="text-align:left;">
+<a href="http://dx.doi.org/10.7554/eLife.27445">Regulation of sleep homeostasis by sexual arousal</a>
+</td>
+<td style="text-align:left;">
+eLife
+</td>
+<td style="text-align:left;">
+E. J. Beckwith, <strong>Q. Geissmann</strong>, A. S. French, G. F. Gilestro
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2017
+</td>
+<td style="text-align:left;">
+<a href="http://dx.doi.org/10.1371/journal.pbio.2003026">Ethoscopes: An open platform for high-throughput ethomics</a>
+</td>
+<td style="text-align:left;">
+PLOS Biology
+</td>
+<td style="text-align:left;">
+<strong>Q. Geissmann</strong>, L. G. Rodriguez, E. J. Beckwith, A. S. French, A. R. Jamasb, G. F. Gilestro
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2016
+</td>
+<td style="text-align:left;">
+<a href="http://dx.doi.org/10.1093/bioinformatics/btw229">MEANS: python package for Moment Expansion Approximation, iNference and Simulation</a>
+</td>
+<td style="text-align:left;">
+Bioinformatics
+</td>
+<td style="text-align:left;">
+S. Fan, <strong>Q. Geissmann</strong>, E. Lakatos, S. Lukauskas, A. Ale, A. C. Babtie, P. D. W. Kirk, M. P. H. Stumpf
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2015
+</td>
+<td style="text-align:left;">
+<a href="http://dx.doi.org/10.1093/molbev/msu266">Dynamics of Copy Number Variation in Host Races of the Pea Aphid</a>
+</td>
+<td style="text-align:left;">
+Molecular Biology and Evolution
+</td>
+<td style="text-align:left;">
+L. Duvaux, <strong>Q. Geissmann</strong>, K. Gharbi, J. Zhou, J. Ferrari, C. M. Smadja, R. K. Butlin
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2013
+</td>
+<td style="text-align:left;">
+<a href="http://dx.doi.org/10.1371/journal.pone.0054072">OpenCFU, a New Free and Open-Source Software to Count Cell Colonies and Other Circular Objects</a>
+</td>
+<td style="text-align:left;">
+PLOS ONE
+</td>
+<td style="text-align:left;">
+<strong>Q. Geissmann</strong>
+</td>
+</tr>
+</tbody>
+</table>
