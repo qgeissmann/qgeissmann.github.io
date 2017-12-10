@@ -45,7 +45,7 @@ Hey there, I am Quentin, a final year PhD student in in the [Gilestro lab](https
 
 
 I am currently part of a multidisciplinary team where I work right at the intersection between my two interests.
-My collaborators and myself try to understand the *physiology of sleep*, using *Drosophila* as a model.
+My collaborators and I try to understand the *physiology of sleep*, using *Drosophila* as a model.
 So far, my main contributions have been to:
 
 * Build the [Ethoscope Platform](https://gilestrolab.github.io/ethoscope/), a real-time tracking system that monitors hundreds of animals at a time
