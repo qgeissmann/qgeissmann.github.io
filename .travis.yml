@@ -30,7 +30,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_PAT
   on:
-    branch: master
+    branch: master  
   local_dir: public
 
 #fqdn: travis-blogdown.yihui.name
