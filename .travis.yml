@@ -1,0 +1,34 @@
+language: r
+dist: trusty
+sudo: false
+
+
+r_packages:
+   - data.table
+   - RefManageR
+   - DT
+   - kableExtra
+   
+branches:
+  only:
+    - source
+
+cache:
+  packages: yes
+  directories:
+    - $HOME/bin
+
+before_script:
+  - Rscript -e 'blogdown::install_hugo(version="0.30")'
+
+script:
+  - Rscript -e 'blogdown::build_site(theme="qgeissmann/hugo-academic")'
+
+deploy:
+  provider: master
+  skip_cleanup: true
+  github_token: $GITHUB_PAT
+  on:
+    branch: source
+  local_dir: public
+fqdn: travis-blogdown.yihui.name
