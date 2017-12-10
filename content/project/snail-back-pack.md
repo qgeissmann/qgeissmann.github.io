@@ -6,7 +6,7 @@ date = "2013-01-21"
 title = "Snail backpack"
 
 # Project summary to display on homepage.
-summary = "Land snails have an amazing physiology! This side project is about monitoring their heart rate in free moving conditions, using a simple arduino."
+summary = "Land snails have an amazing physiology! This side project is about monitoring their heart rate in freely moving conditions using a simple arduino."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "snail-back-pack.jpg"
