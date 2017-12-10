@@ -26,11 +26,12 @@ script:
   - Rscript -e 'blogdown::build_site()'
 
 deploy:
-  provider: source
+  provider: pages
+  target_branch: master
   skip_cleanup: true
   github_token: $GITHUB_PAT
   on:
-    branch: master  
+    branch: source  
   local_dir: public
 
 #fqdn: travis-blogdown.yihui.name
