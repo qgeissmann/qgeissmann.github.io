@@ -16,25 +16,26 @@ weight = 5
   ]
 
 # List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "TODO"
-  institution = "Imperial College London"
-  year = 2018
+
+# [[education.courses]]
+#   course = "PhD com"
+#   institution = "Imperial College London"
+#   year = 2018
 
 [[education.courses]]
-  course = "TODO"
+  course = "MSc. Bioinformatics and Theoretical Systems Biology"
   institution = "Imperial College London"
-  year = 2013
+  year = 2014
 
 [[education.courses]]
-  course = "TODO"
+  course = "MSc. Integrative Biology and Physiology"
   institution = "Université Pierre et Marie Curie"
   year = 2010
 
 [[education.courses]]
-  course = "TODO"
+  course = "BSc. Biology of Organisms,"
   institution = "Université de Bourgogne"
-  year = 2007
+  year = 2008
  
 +++
 

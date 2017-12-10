@@ -8,6 +8,7 @@ r_packages:
    - RefManageR
    - DT
    - kableExtra
+   - blogdown
    
 branches:
   only:
@@ -31,4 +32,5 @@ deploy:
   on:
     branch: source
   local_dir: public
-fqdn: travis-blogdown.yihui.name
+
+#fqdn: travis-blogdown.yihui.name
