@@ -41,13 +41,12 @@ weight = 5
 
 # About
 
-Hey there, I am Quentin, a final year PhD student in in the [Gilestro lab](https://lab.gilest.ro/) (in Imperial College London). I have always been interested in the diversity of life forms, and how different organisms have evolved solutions to a wide range constraints. Over the years, I also developed a passion for open-source software which naturally led me to study computational biology, statistics and machine learning.
-
+Hey there, I am Quentin, a final year PhD student in in the [Gilestro lab](https://lab.gilest.ro/) (in Imperial College London). I have always been fascinated by the diversity of life forms, and how different organisms have adaped to a wide range constraints. Over the years, I also developed a passion for open-source software which naturally led me to study computational biology, statistics and machine learning.
 
 I am currently part of a multidisciplinary team where I work right at the intersection between my two interests.
 My collaborators and I try to understand the *physiology of sleep*, using *Drosophila* as a model.
-So far, my main contributions have been to:
+So far, my main contributions have been in:
 
-* Build the [Ethoscope Platform](https://gilestrolab.github.io/ethoscope/), a real-time tracking system that monitors hundreds of animals at a time
-* Develop [Rethomics](http://rethomics.github.io/), a pipeline to analyse high-throughput behaviour data
-* Use these approaches to challenge our understanding of sleep (*e.g.* physiology of sleep deprivation, trade-offs between sleeping and mating)
+* Building the [Ethoscope Platform](https://gilestrolab.github.io/ethoscope/), a real-time tracking system that monitors hundreds of animals at a time
+* Developing [Rethomics](http://rethomics.github.io/), a pipeline to analyse high-throughput behaviour data
+* Using these approaches to challenge our understanding of sleep (*e.g.* physiology of sleep deprivation, trade-offs between sleeping and mating)
