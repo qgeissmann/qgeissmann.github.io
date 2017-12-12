@@ -24,7 +24,7 @@ before_script:
   - Rscript -e 'blogdown::install_hugo(version="0.30")'
 
 script:
-  #- xelatex qgeissmann-cv.tex	&& mv qgeissmann-cv.pdf static/files
+  - pdflatex qgeissmann-cv.tex	&& mv qgeissmann-cv.pdf static/files
   - Rscript -e 'blogdown::build_site()'
 
 deploy:
