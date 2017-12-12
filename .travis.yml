@@ -20,11 +20,12 @@ cache:
     - $HOME/bin
 
 before_script:
+  - sudo apt-get install texlive-bibtex-extra
   - Rscript -e 'blogdown::install_hugo(version="0.30")'
 
 script:
+  - xelatex qgeissmann-cv.tex	&& mv qgeissmann-cv.pdf static/files
   - Rscript -e 'blogdown::build_site()'
-  - xelatex qgeissmann-cv.tex	&& mv qgeissmann-cv.pdf public
 
 deploy:
   provider: pages
