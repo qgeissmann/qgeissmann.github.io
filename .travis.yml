@@ -24,6 +24,7 @@ before_script:
 
 script:
   - Rscript -e 'blogdown::build_site()'
+  - xelatex qgeissmann-cv.tex	&& mv qgeissmann-cv.pdf public
 
 deploy:
   provider: pages
