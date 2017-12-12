@@ -40,11 +40,11 @@
       </li>
       {{ end }}
 
-      {{ with $.Site.Params.phone }}
+      {{ with $.Site.Params.cv }}
       <li>
-        <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone">
-        {{- if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+        <i class="fa-li fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+        <span id="person-cv" itemprop="cv">
+        {{- if $autolink }}<a href="{{ . }}">Download my CV</a>{{ else }}{{ . }}{{ end -}}
         </span>
       </li>
       {{ end }}
