@@ -6,7 +6,7 @@ date = "2016-01-21"
 title = "Rethomics"
 
 # Project summary to display on homepage.
-summary = "A collection of `R` packages to analyse high-throughput behavioural data"
+summary = "A collection of `R` packages to analyse high-throughput behavioural data."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "rethomics.png"
