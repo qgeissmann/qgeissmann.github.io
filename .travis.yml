@@ -36,4 +36,4 @@ deploy:
     branch: source  
   local_dir: public
 
-#fqdn: travis-blogdown.yihui.name
+fqdn: quentin.geissmann.net
