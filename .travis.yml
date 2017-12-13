@@ -26,6 +26,7 @@ before_script:
 script:
   - pdflatex qgeissmann-cv.tex	&& mv qgeissmann-cv.pdf static/files
   - Rscript -e 'blogdown::build_site()'
+  - echo "quentin.geissmann.net" > public/CNAME
 
 deploy:
   provider: pages
