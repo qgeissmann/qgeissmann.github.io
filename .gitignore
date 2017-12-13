@@ -235,4 +235,5 @@ TSWLatexianTemp*
 
 # Hugo default output directory
 /public
+/_public
 blogdown
