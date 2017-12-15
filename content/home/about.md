@@ -41,7 +41,7 @@ weight = 5
 
 # About
 
-Hey there, I am Quentin, a final year PhD student in in the [Gilestro lab](https://lab.gilest.ro/) (in Imperial College London). I have always been fascinated by the diversity of life forms, and how different organisms have adaped to a wide range constraints. Over the years, I also developed a passion for open-source software which naturally led me to study computational biology, statistics and machine learning.
+Hey there, I am Quentin, a final year PhD student in the [Gilestro lab](https://lab.gilest.ro/) (at Imperial College London). I have always been fascinated by the diversity of life forms, and how different organisms have adaped to a wide range constraints. Over the years, I also developed a passion for open-source software which naturally led me to study computational biology, statistics and machine learning.
 
 I am currently part of a multidisciplinary team where I work right at the intersection between my two interests.
 My collaborators and I try to understand the *physiology of sleep*, using *Drosophila* as a model.
