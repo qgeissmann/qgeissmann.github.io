@@ -49,6 +49,8 @@ library(kableExtra)
 format_authors <- function(authors){
   bold_name <- "**Q. Geissmann**"
   authors <- strsplit(authors, split = " and ")
+  
+ # authors <- gsub(pattern=" ", replacement="&nbsp", authors)
   full_list <- sapply(authors, function(x){
       if(length(x) ==1) 
         return(x)
@@ -57,12 +59,13 @@ format_authors <- function(authors){
   
   
   short_list <- sapply(authors, function(x){
+      x <- gsub(pattern=".\\. ", replacement="", x)
       if(length(x) ==1) 
         return(x)
-      if(length(x) < 4)
-        return(sprintf("%s and %s", paste(x[1:length(x)-1], collapse = ", ",sep = ""), x[length(x)]))
+      if(length(x) == 2)
+        return(sprintf("%s and %s", x[1], x[2]))
       
-      sprintf("%s, ..., and %s", paste(x[1:2], collapse = ", ",sep = ""), x[length(x)])
+      sprintf("%s *et al.*", x[1])
     
         })
   
