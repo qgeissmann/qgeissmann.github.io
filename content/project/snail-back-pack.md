@@ -13,7 +13,7 @@ image_preview = "snail-back-pack.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: ``
-tags = ["hardware", "behaviour", "prototype"]
+tags = ["science", "hardware", "behaviour", "prototype"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://github.com/gilestrolab/snail_back_pack/blob/master/protocols/heart_monitor.md"

@@ -13,7 +13,7 @@ image_preview = "sleep.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["drosophila", "behaviour"]
+tags = ["science", "drosophila", "behaviour"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

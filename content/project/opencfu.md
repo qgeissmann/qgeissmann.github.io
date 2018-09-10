@@ -13,7 +13,7 @@ image_preview = "opencfu.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: ``
-tags = ["software", "microbiology"]
+tags = ["science", "software", "microbiology"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://opencfu.sourceforge.net/"

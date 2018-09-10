@@ -24,10 +24,12 @@ filter_default = 0
 # Add or remove as many filters (`[[filter]]` instances) as you like.
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-[[filter]]
-  name = "All"
-  tag = "*"
+
   
+[[filter]]
+  name = "Science"
+  tag = ".science"
+
 [[filter]]
   name = "Software"
   tag = ".software"
@@ -36,7 +38,7 @@ filter_default = 0
   name = "Behaviour"
   tag = ".behaviour"
 
-
+    
 [[filter]]
   name = "Hardware"
   tag = ".hardware"
@@ -45,6 +47,10 @@ filter_default = 0
 [[filter]]
   name = "Prototype"
   tag = ".prototype"
+
+[[filter]]
+  name = "DIY & Craft"
+  tag = ".diy_craft"
 
 +++
 
