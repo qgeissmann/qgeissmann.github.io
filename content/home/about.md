@@ -10,7 +10,7 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Plant-Invertebrate-Bacteria Interactions"
+    "Plant-Invertebrate-Bacteria Interactions",
     "Computational Biology",
     "Comparative Physiology",
     "Animal Behaviour"
