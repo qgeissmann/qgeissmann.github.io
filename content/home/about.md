@@ -29,12 +29,12 @@ weight = 5
   year = 2018
 
 [[education.courses]]
-  course = "MSc. Bioinformatics and Systems Biology"
+  course = "MSc. Bioinformatics"
   institution = "Imperial College London"
   year = 2014
 
 [[education.courses]]
-  course = "MSc. Integrative Biology and Physiology"
+  course = "MSc. Integrative Biology"
   institution = "Université Pierre et Marie Curie"
   year = 2010
 
