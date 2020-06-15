@@ -10,7 +10,7 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Plant-Invertebrate-Bacteria Interactions"
+    "Plant-Invertebrate-Bacteria Interactions",
     "Computational Biology",
     "Comparative Physiology",
     "Animal Behaviour"
@@ -29,12 +29,12 @@ weight = 5
   year = 2018
 
 [[education.courses]]
-  course = "MSc. Bioinformatics and Systems Biology"
+  course = "MSc. Bioinformatics"
   institution = "Imperial College London"
   year = 2014
 
 [[education.courses]]
-  course = "MSc. Integrative Biology and Physiology"
+  course = "MSc. Integrative Biology"
   institution = "Université Pierre et Marie Curie"
   year = 2010
 
@@ -42,6 +42,7 @@ weight = 5
   course = "BSc. Biology of Organisms"
   institution = "Université de Bourgogne"
   year = 2008
+ 
  
 +++
 
