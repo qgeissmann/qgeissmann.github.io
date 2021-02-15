@@ -38,6 +38,10 @@ filter_default = 0
   name = "Behaviour"
   tag = ".behaviour"
 
+  
+[[filter]]
+  name = "Insects"
+  tag = ".insects"
     
 [[filter]]
   name = "Hardware"
@@ -51,6 +55,7 @@ filter_default = 0
 [[filter]]
   name = "DIY & Craft"
   tag = ".diy_craft"
+
 
 +++
 
