@@ -13,7 +13,7 @@ image_preview = "sticky-pi.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: ``
-tags = ["science", "software", "insects"]
+tags = ["science", "software", "insects", "hardware"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://doc.sticky-pi.com"
