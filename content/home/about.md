@@ -54,4 +54,4 @@ Over the years, I also developed a passion for open-source software which natura
 My primary interest is to bridge the gap between area data sciences/engineering and physiology/behaviour/ecology. 
 I particularly devote this attention to insects -- towards a *computational entomology*. 
 One application on this approach I am currently actively pursuing, is the study of insect [chronobiology](https://en.wikipedia.org/wiki/Chronobiology) 
-directly in their natural environment using smart insec t traps.
+directly in their natural environment developing smart insect traps.
