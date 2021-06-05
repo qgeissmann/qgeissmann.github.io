@@ -51,4 +51,7 @@ labs at the [University of British Columbia](https://www.ubc.ca/).
 I have always been fascinated by the diversity of life forms, and how different organisms have adapted to a wide range of constraints.
 Over the years, I also developed a passion for open-source software which naturally led me to study computational biology, statistics and machine learning.
 
-My primary interest is to bridge the gap between area data sciences/engineering and physiology/behaviour/ecology. I particularly devote this attention to insects -- towards a *computational entomology*. One application on this approach I am currently actively pursuing, is the study of insect [chronobiology](https://en.wikipedia.org/wiki/Chronobiology) directly in their natural environment using smart insect traps.
+My primary interest is to bridge the gap between area data sciences/engineering and physiology/behaviour/ecology. 
+I particularly devote this attention to insects -- towards a *computational entomology*. 
+One application on this approach I am currently actively pursuing, is the study of insect [chronobiology](https://en.wikipedia.org/wiki/Chronobiology) 
+directly in their natural environment using smart insec t traps.
