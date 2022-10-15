@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quentin Geissmann on Quentin Geissmann</title>
+    <link>/</link>
+    <description>Recent content in Quentin Geissmann on Quentin Geissmann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Quentin Geissmann</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sticky Pi</title>
+      <link>/project/sticky-pi/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/sticky-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Millipede</title>
+      <link>/project/millipede/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/millipede/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;The mill on pedals!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;TODO The Millipde in image with a caption / video&lt;/p&gt;
+
+&lt;h2 id=&#34;the-wondermill&#34;&gt;The wondermill&lt;/h2&gt;
+
+&lt;p&gt;A couple of years ago, I purchased a &amp;ldquo;&lt;a href=&#34;http://www.thewondermill.com/index.php/module/statics/action/view_listing/page/53&#34; target=&#34;_blank&#34;&gt;Wondermill Junior&lt;/a&gt;&amp;rdquo;, which is a basically a benchtop hand-powered mill.
+The &amp;ndash; comedic and exhaustive &amp;ndash; promotional videos do a good job at promoting this thing of beauty, so I will jump straight to the point.
+I was using it quite often, especially to make pea and buckwheat flour &amp;ndash; or peanut butter and sesame paste, using the stainless steel stones.&lt;/p&gt;
+
+&lt;p&gt;The point I love about the mill:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fresh flower &amp;ndash; one can keep seeds and mill them on demand which increases tastes and shelflife.&lt;/li&gt;
+&lt;li&gt;Money saving &amp;ndash;  often, buying a bulk of seeds is a lot cheaper than flour.&lt;/li&gt;
+&lt;li&gt;Versatility &amp;ndash; one does not need to store both flour and grains of the same crop. One can also make flour of less industrial (&lt;em&gt;e.g.&lt;/em&gt; foraged goods)&lt;/li&gt;
+&lt;li&gt;Exercise &amp;ndash; it is a nice way to move a bit after a long day of work, and it is silent enough that one can listen to a podcast at the same time&lt;/li&gt;
+&lt;li&gt;Romanticism &amp;ndash; it is elegantly minimalist.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;why-pedals&#34;&gt;Why pedals?&lt;/h2&gt;
+
+&lt;p&gt;When I had guests, I asked them for a hand to mill as it gets rather physical after 10 min non-stop.
+Although I personally find that fun, my &amp;ldquo;sweating before eating&amp;rdquo; policy was not unanimously acclaimed &amp;ndash; sad days.
+In addition, some people of smaller stature would not even manage to actually mill hard grains.
+Therefore, I started a crazy project aiming at putting the mill on pedals &amp;ndash; thus keeping its positive attributes whilst making it more efficient.
+I thought it would be fun to share the latest version of my design my design with the other lunatics crawling the web.
+The wondermill is already quite expensive, and I was reluctant to spend any more money.
+My philosophy for this project was, therefore, to recycle/repurpose as much as possible.&lt;/p&gt;
+
+&lt;p&gt;On this page, I just put together the prerequisites as well as minimal assembly instructions and blueprints.&lt;/p&gt;
+
+&lt;h2 id=&#34;project-prerequisites&#34;&gt;Project prerequisites&lt;/h2&gt;
+
+&lt;p&gt;The skills:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic woodworking (tenon and mortices).&lt;/li&gt;
+&lt;li&gt;Basic 3D printing&lt;/li&gt;
+&lt;li&gt;Very basic knowledge of bicycle mechanics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;About 3m of sturdy wood (e.g. 3x2 construction timber, I found mine in a skip)&lt;/li&gt;
+&lt;li&gt;An old bicycle frame with crank and pedals attached (ideally a broken rusty vintage one. I found mine actually abandoned in a wood)&lt;/li&gt;
+&lt;li&gt;A chain, derailleur and cassette&lt;/li&gt;
+&lt;li&gt;A 3D printed adaptor to fit the cassette on the mill&lt;/li&gt;
+&lt;li&gt;The wondermill itself&lt;/li&gt;
+&lt;li&gt;A pair of G clamps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tools and consumables:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wood saw, mallet, chisels&lt;/li&gt;
+&lt;li&gt;Wood glue and clamps&lt;/li&gt;
+&lt;li&gt;Hard string&lt;/li&gt;
+&lt;li&gt;5 screws for wood&lt;/li&gt;
+&lt;li&gt;Hacksaw and file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assembly&#34;&gt;Assembly&lt;/h2&gt;
+
+&lt;p&gt;Obviously, the design will depend on what material you find and, I hope, your own improvements/adaptations.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-final-product&#34;&gt;The final product&lt;/h3&gt;
+
+&lt;p&gt;TODO pict (The final assembled millipede)&lt;/p&gt;
+
+&lt;h3 id=&#34;the-holder&#34;&gt;The holder&lt;/h3&gt;
+
+&lt;p&gt;The holder is the wooden chassis that holds everything together.
+The idea is to put together something with these dimensions:&lt;/p&gt;
+
+&lt;p&gt;Todo drawing (millipede holder)&lt;/p&gt;
+
+&lt;p&gt;My brother introduced me to woodwork and to the soothing &amp;ndash; and weirdly addictive &amp;ndash; voice of &lt;a href=&#34;https://www.youtube.com/user/PaulSellersWoodwork/playlists&#34; target=&#34;_blank&#34;&gt;Paul Sellers&lt;/a&gt;, which I highly recommend.
+I wanted to start my woodworking training with this project.
+The important point here is that you want &lt;strong&gt;something quite sturdy&lt;/strong&gt; as you will sit and move around.
+If your structure is not rigid enough, the torque on the mill, especially on hard grains, may also warp it, making it less efficient.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-bicycle-and-derailleur&#34;&gt;The bicycle and derailleur&lt;/h3&gt;
+
+&lt;p&gt;For this project, we just need the rear part of the frame: the one that would hold the saddle and the back wheel.
+I used a hacksaw to cut the rest off &amp;ndash; consistently with my effort to minimise the design.
+Some people find it hard to balance without a handlebar, so you may want to keep the front of the bike for that.&lt;/p&gt;
+
+&lt;p&gt;I wanted to avoid screws when possible. Therefore, I used a chisel to dig groves where the bike should go. I then used hard strings/rope to keep the bike in place.
+I like the simplicity of string and the possibility to remove it (e.g. to for cleaning or transport):&lt;/p&gt;
+
+&lt;p&gt;Todo picture of the holder&lt;/p&gt;
+
+&lt;p&gt;The first prototype I put together did not have a derailleur, which was a mistake. Then the chain did jump a lot especially on large hard grains (e.g. corn), and it was effectively impossible to tune the gear ratio.
+Therefore I added a derailleur to the current version:&lt;/p&gt;
+
+&lt;p&gt;TODO derailleur fig.&lt;/p&gt;
+
+&lt;p&gt;Note that I have cut a small piece of wood to fix he derailleur using its hanger and a couple of screws/bolts.
+I first clamped the support until I was happy with its position, and then glued it.
+This way, we do not risk damaging the holder and we could relatively simply change the derailleur or its position.&lt;/p&gt;
+
+&lt;h3 id=&#34;mounting-the-mill&#34;&gt;Mounting the mill&lt;/h3&gt;
+
+&lt;p&gt;Rather than using a single sprocket (such as &lt;a href=&#34;http://www.thewondermill.com/index.php/module/statics/action/view_listing/page/58&#34; target=&#34;_blank&#34;&gt;the one sold by the wondermill people&lt;/a&gt;), I opted for a cassette, so I can play around with the gear ratio according to what mill.
+I 3d printed an adaptor for a shimano cassette that fits the shaft of the wondemill:&lt;/p&gt;
+
+&lt;p&gt;Todo drawing of the adaptor&lt;/p&gt;
+
+&lt;p&gt;Then, instead of screwing or bolting the mill directly to the holder, I put it on a separate board and I clamp the board (using G clamps) when I mill.
+This allows me to clean the mill or move it left to right to line up the gear I want:&lt;/p&gt;
+
+&lt;p&gt;Todo pict of the board to screw it in&lt;/p&gt;
+
+&lt;p&gt;This design also makes it the millipede modular so that we can remove the mill and other rotation/based instead. For instance, I have put together an millipede-powered apple-crusher.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I hope you had fun reading about the millipede and that you try building your own and do not hesistate to send me some feed back!
+I also hope the wondermill company comes accross this post and strat sending me freebies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rethomics</title>
+      <link>/project/rethomics/</link>
+      <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rethomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/datatables-css/datatables-crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/datatables-binding/datatables.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/jquery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/dt-core/css/jquery.dataTables.min.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;/rmarkdown-libs/dt-core/css/jquery.dataTables.extra.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/dt-core/js/jquery.dataTables.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:auto;&#34; class=&#34;datatables html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;filter&#34;:&#34;none&#34;,&#34;vertical&#34;:false,&#34;data&#34;:[[&#34;2022&#34;,&#34;2021&#34;,&#34;2021&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2017&#34;,&#34;2017&#34;,&#34;2016&#34;,&#34;2015&#34;,&#34;2013&#34;],[&#34;&lt;a href=\&#34;http://dx.doi.org/10.1371/journal.pbio.3001689\&#34;&gt;Sticky Pi is a high-frequency smart trap that enables the study of insect circadian activity under natural conditions&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1038/s41586-021-03954-w\&#34;&gt;Sensory processing during sleep in Drosophila melanogaster&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1038/s41477-021-00914-0\&#34;&gt;FERONIA restricts Pseudomonas in the rhizosphere microbiome via regulation of reactive oxygen species&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1126/sciadv.aau9253\&#34;&gt;Most sleep does not serve a vital function: Evidence from Drosophila melanogaster&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1371/journal.pone.0209331\&#34;&gt;Rethomics: An R framework to analyse high-throughput behavioural data&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.7554/eLife.27445\&#34;&gt;Regulation of sleep homeostasis by sexual arousal&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1371/journal.pbio.2003026\&#34;&gt;Ethoscopes: An open platform for high-throughput ethomics&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1093/bioinformatics/btw229\&#34;&gt;MEANS: python package for Moment Expansion Approximation, iNference and Simulation&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1093/molbev/msu266\&#34;&gt;Dynamics of Copy Number Variation in Host Races of the Pea Aphid&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1371/journal.pone.0054072\&#34;&gt;OpenCFU, a New Free and Open-Source Software to Count Cell Colonies and Other Circular Objects&lt;\/a&gt;&#34;],[&#34;PLOS Biology&#34;,&#34;Nature&#34;,&#34;Nature Plants&#34;,&#34;Science Advances&#34;,&#34;PLOS ONE&#34;,&#34;eLife&#34;,&#34;PLOS Biology&#34;,&#34;Bioinformatics&#34;,&#34;Molecular Biology and Evolution&#34;,&#34;PLOS ONE&#34;],[&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;, Paul K. Abram, Di Wu, Cara H. Haney, Juli Carrillo&#34;,&#34;A. S. French, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, E. J. Beckwith, G. F. Gilestro&#34;,&#34;Y. Song, A. J. Wilson, X.-C. Zhang, D. Thoms, R Sohrabi, S. Song, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, Y. Liu, L. Walgren, S. Y. He, C. H. Haney&#34;,&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;, E. J. Beckwith, G. F. Gilestro&#34;,&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;, L. G. Rodriguez, E. J. Beckwith, G. F. Gilestro&#34;,&#34;E. J. Beckwith, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, A. S. French, G. F. Gilestro&#34;,&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;, L. G. Rodriguez, E. J. Beckwith, A. S. French, A. R. Jamasb, G. F. Gilestro&#34;,&#34;S. Fan, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, E. Lakatos, S. Lukauskas, A. Ale, A. C. Babtie, P. D. W. Kirk, M. P. H. Stumpf&#34;,&#34;L. Duvaux, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, K. Gharbi, J. Zhou, J. Ferrari, C. M. Smadja, R. K. Butlin&#34;,&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;&#34;]],&#34;container&#34;:&#34;&lt;table class=\&#34;display\&#34;&gt;\n  &lt;thead&gt;\n    &lt;tr&gt;\n      &lt;th&gt;Year&lt;\/th&gt;\n      &lt;th&gt;Title&lt;\/th&gt;\n      &lt;th&gt;Journal&lt;\/th&gt;\n      &lt;th&gt;Authors&lt;\/th&gt;\n    &lt;\/tr&gt;\n  &lt;\/thead&gt;\n&lt;\/table&gt;&#34;,&#34;options&#34;:{&#34;columnDefs&#34;:[{&#34;targets&#34;:3,&#34;render&#34;:&#34;function(data, type, row, meta) {\nlst = data.split(\&#34;,\&#34;);\nif(lst.length &gt;3){\ndisplay = [lst[0],lst[1],\&#34;…,\&#34;,lst.slice(-1)[0]].join(\&#34;, \&#34;);\n}\nelse{\ndisplay=data;\n}\ndisplay = display.split(\&#34;,\&#34;);\ndata = data.split(\&#34;,\&#34;);\nif(display.length &gt; 1){\ndisplay = display.slice(0,-1).join(\&#34;, \&#34;) + \&#34; and\&#34; + display.slice(-1);\ndata = data.slice(0,-1).join(\&#34;, \&#34;) + \&#34; and\&#34; + data.slice(-1);\n}\nelse{\ndisplay=data;\n}\nreturn &#39;&lt;span title=\&#34;&#39; + data + &#39;\&#34;&gt;&#39; + display + &#39;&lt;\/span&gt;&#39;;\n}&#34;}],&#34;order&#34;:[],&#34;autoWidth&#34;:false,&#34;orderClasses&#34;:false}},&#34;evals&#34;:[&#34;options.columnDefs.0.render&#34;],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;iframe seamless src=&#34;../_publication-table/index.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ethoscope</title>
+      <link>/project/ethoscope/</link>
+      <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/project/ethoscope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sleep in fruit flies</title>
+      <link>/project/sleep-drosophila/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/project/sleep-drosophila/</guid>
+      <description>&lt;p&gt;Sleep is a fascinating mystery that has bemused thinkers since the dawn of civilisations. Scientifically, the formalisation of sleep as an observable behaviour has been a conceptual milestone, which has enabled researchers to address the question of its ubiquity and ultimately led to the discovery of sleep-like states in most animal phyla. The fruit fly &lt;em&gt;Drosophila melanogaster&lt;/em&gt; has long been at the vanguard of the discovery of many biological processes. During my PhD, I worked on the quantification and alteration and of sleep in &lt;em&gt;Drosophila&lt;/em&gt;. You can read more about my work in my thesis: &lt;a href=&#34;https://spiral.imperial.ac.uk/bitstream/10044/1/69514/3/Geissmann-Q-2018-PhD-Thesis.pdf&#34; target=&#34;_blank&#34;&gt;High-throughput Recording, Analysis andManipulation of Sleep in Drosophila&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenCFU</title>
+      <link>/project/opencfu/</link>
+      <pubDate>Mon, 21 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/project/opencfu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snail backpack</title>
+      <link>/project/snail-back-pack/</link>
+      <pubDate>Mon, 21 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/project/snail-back-pack/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

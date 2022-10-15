@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Quentin Geissmann</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Quentin Geissmann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Quentin Geissmann</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/datatables-css/datatables-crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/datatables-binding/datatables.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/jquery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/dt-core/css/jquery.dataTables.min.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;/rmarkdown-libs/dt-core/css/jquery.dataTables.extra.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/dt-core/js/jquery.dataTables.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:auto;&#34; class=&#34;datatables html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;filter&#34;:&#34;none&#34;,&#34;vertical&#34;:false,&#34;data&#34;:[[&#34;2022&#34;,&#34;2021&#34;,&#34;2021&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2017&#34;,&#34;2017&#34;,&#34;2016&#34;,&#34;2015&#34;,&#34;2013&#34;],[&#34;&lt;a href=\&#34;http://dx.doi.org/10.1371/journal.pbio.3001689\&#34;&gt;Sticky Pi is a high-frequency smart trap that enables the study of insect circadian activity under natural conditions&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1038/s41586-021-03954-w\&#34;&gt;Sensory processing during sleep in Drosophila melanogaster&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1038/s41477-021-00914-0\&#34;&gt;FERONIA restricts Pseudomonas in the rhizosphere microbiome via regulation of reactive oxygen species&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1126/sciadv.aau9253\&#34;&gt;Most sleep does not serve a vital function: Evidence from Drosophila melanogaster&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1371/journal.pone.0209331\&#34;&gt;Rethomics: An R framework to analyse high-throughput behavioural data&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.7554/eLife.27445\&#34;&gt;Regulation of sleep homeostasis by sexual arousal&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1371/journal.pbio.2003026\&#34;&gt;Ethoscopes: An open platform for high-throughput ethomics&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1093/bioinformatics/btw229\&#34;&gt;MEANS: python package for Moment Expansion Approximation, iNference and Simulation&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1093/molbev/msu266\&#34;&gt;Dynamics of Copy Number Variation in Host Races of the Pea Aphid&lt;\/a&gt;&#34;,&#34;&lt;a href=\&#34;http://dx.doi.org/10.1371/journal.pone.0054072\&#34;&gt;OpenCFU, a New Free and Open-Source Software to Count Cell Colonies and Other Circular Objects&lt;\/a&gt;&#34;],[&#34;PLOS Biology&#34;,&#34;Nature&#34;,&#34;Nature Plants&#34;,&#34;Science Advances&#34;,&#34;PLOS ONE&#34;,&#34;eLife&#34;,&#34;PLOS Biology&#34;,&#34;Bioinformatics&#34;,&#34;Molecular Biology and Evolution&#34;,&#34;PLOS ONE&#34;],[&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;, Paul K. Abram, Di Wu, Cara H. Haney, Juli Carrillo&#34;,&#34;A. S. French, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, E. J. Beckwith, G. F. Gilestro&#34;,&#34;Y. Song, A. J. Wilson, X.-C. Zhang, D. Thoms, R Sohrabi, S. Song, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, Y. Liu, L. Walgren, S. Y. He, C. H. Haney&#34;,&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;, E. J. Beckwith, G. F. Gilestro&#34;,&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;, L. G. Rodriguez, E. J. Beckwith, G. F. Gilestro&#34;,&#34;E. J. Beckwith, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, A. S. French, G. F. Gilestro&#34;,&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;, L. G. Rodriguez, E. J. Beckwith, A. S. French, A. R. Jamasb, G. F. Gilestro&#34;,&#34;S. Fan, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, E. Lakatos, S. Lukauskas, A. Ale, A. C. Babtie, P. D. W. Kirk, M. P. H. Stumpf&#34;,&#34;L. Duvaux, &lt;b&gt;Q. Geissmann&lt;\/b&gt;, K. Gharbi, J. Zhou, J. Ferrari, C. M. Smadja, R. K. Butlin&#34;,&#34;&lt;b&gt;Q. Geissmann&lt;\/b&gt;&#34;]],&#34;container&#34;:&#34;&lt;table class=\&#34;display\&#34;&gt;\n  &lt;thead&gt;\n    &lt;tr&gt;\n      &lt;th&gt;Year&lt;\/th&gt;\n      &lt;th&gt;Title&lt;\/th&gt;\n      &lt;th&gt;Journal&lt;\/th&gt;\n      &lt;th&gt;Authors&lt;\/th&gt;\n    &lt;\/tr&gt;\n  &lt;\/thead&gt;\n&lt;\/table&gt;&#34;,&#34;options&#34;:{&#34;columnDefs&#34;:[{&#34;targets&#34;:3,&#34;render&#34;:&#34;function(data, type, row, meta) {\nlst = data.split(\&#34;,\&#34;);\nif(lst.length &gt;3){\ndisplay = [lst[0],lst[1],\&#34;…,\&#34;,lst.slice(-1)[0]].join(\&#34;, \&#34;);\n}\nelse{\ndisplay=data;\n}\ndisplay = display.split(\&#34;,\&#34;);\ndata = data.split(\&#34;,\&#34;);\nif(display.length &gt; 1){\ndisplay = display.slice(0,-1).join(\&#34;, \&#34;) + \&#34; and\&#34; + display.slice(-1);\ndata = data.slice(0,-1).join(\&#34;, \&#34;) + \&#34; and\&#34; + data.slice(-1);\n}\nelse{\ndisplay=data;\n}\nreturn &#39;&lt;span title=\&#34;&#39; + data + &#39;\&#34;&gt;&#39; + display + &#39;&lt;\/span&gt;&#39;;\n}&#34;}],&#34;order&#34;:[],&#34;autoWidth&#34;:false,&#34;orderClasses&#34;:false}},&#34;evals&#34;:[&#34;options.columnDefs.0.render&#34;],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;iframe seamless src=&#34;../_publication-table/index.html&#34; width=&#34;100%&#34; height=&#34;500&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
